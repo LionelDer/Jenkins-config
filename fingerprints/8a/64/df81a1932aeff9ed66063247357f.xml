@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-04-15 08:22:29.483 UTC</timestamp>
+  <md5sum>8a64df81a1932aeff9ed66063247357f</md5sum>
+  <fileName>Credential id=06f6accf-77bd-46a7-a3f7-779d9191a991 name=lionelder877@gmail.com</fileName>
+  <usages>
+    <entry>
+      <string>test</string>
+      <ranges>5-17</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

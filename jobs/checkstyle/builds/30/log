@@ -1,0 +1,24 @@
+Started by user [8mha:////4FxTXGHAbfSOeTAjfLveW5XJjrvV7ceb5KVg+tXCUiW+AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\checkstyle
+[] $ cmd.exe /C "ant.bat -file ant.xml && exit %%ERRORLEVEL%%"
+Buildfile: D:\ant.xml
+
+[8mha:////4Pa9Zx+g+sb9pWEKPSRJHhHE34+3DuxbPhb2oPXAPWZRAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0minit:
+
+[8mha:////4Pa9Zx+g+sb9pWEKPSRJHhHE34+3DuxbPhb2oPXAPWZRAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcheckstyle:
+[checkstyle] Running Checkstyle 8.9 on 333 files
+    [style] Warning: the task name <style> is deprecated. Use <xslt> instead.
+    [style] Processing D:\checkstyle_report\checkstyle-result.xml to D:\checkstyle_report\checkstyle-report.html
+    [style] Loading stylesheet D:\checkstyle-author.xsl
+    [style] [Fatal Error] checkstyle-author.xsl:43:91: ÃöÁp¤¸¯ÀÃþ«¬ "meta" ªºÄÝ©Ê¦WºÙ "data-pjax-transient" ¤§«á¥²¶·ºò±µ ' = ' ¦r¤¸¡C
+    [style] : Error! µLªk½sÄ¶¼Ë¦¡ªí
+    [style] : Fatal Error! ÃöÁp¤¸¯ÀÃþ«¬ "meta" ªºÄÝ©Ê¦WºÙ "data-pjax-transient" ¤§«á¥²¶·ºò±µ ' = ' ¦r¤¸¡C Cause: org.xml.sax.SAXParseException; systemId: file:/D:/checkstyle-author.xsl; lineNumber: 43; columnNumber: 91; ÃöÁp¤¸¯ÀÃþ«¬ "meta" ªºÄÝ©Ê¦WºÙ "data-pjax-transient" ¤§«á¥²¶·ºò±µ ' = ' ¦r¤¸¡C
+    [style] Failed to process D:\checkstyle_report\checkstyle-result.xml
+
+[8mha:////4FySHA9BJuJK4keHPR3mJMnREBZ3b8JWd+L09BmnSi79AAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD FAILED
+D:\ant.xml:25: Fatal error during transformation using D:\checkstyle-author.xsl: ÃöÁp¤¸¯ÀÃþ«¬ "meta" ªºÄÝ©Ê¦WºÙ "data-pjax-transient" ¤§«á¥²¶·ºò±µ ' = ' ¦r¤¸¡C
+
+Total time: 30 seconds
+Build step 'Invoke Ant' marked build as failure
+[CHECKSTYLE] Skipping publisher since build result is FAILURE
+Finished: FAILURE

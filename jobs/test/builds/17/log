@@ -1,0 +1,257 @@
+Started by user [8mha:////4FxTXGHAbfSOeTAjfLveW5XJjrvV7ceb5KVg+tXCUiW+AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\test
+ > C:\Program Files\Git\bin\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url git@github.com:LionelDer/Imaginarium.git # timeout=10
+Fetching upstream changes from git@github.com:LionelDer/Imaginarium.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+using GIT_SSH to set credentials 
+ > C:\Program Files\Git\bin\git.exe fetch --tags --progress git@github.com:LionelDer/Imaginarium.git +refs/heads/*:refs/remotes/origin/*
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 94a91453c55d5e636f6fca746727ffa7c49496f5 (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f 94a91453c55d5e636f6fca746727ffa7c49496f5
+Commit message: "Imaginarium"
+ > C:\Program Files\Git\bin\git.exe rev-list --no-walk 94a91453c55d5e636f6fca746727ffa7c49496f5 # timeout=10
+[test] $ cmd /c call C:\Windows\TEMP\jenkins4036057580695551618.bat
+
+C:\Program Files (x86)\Jenkins\workspace\test>D:\dirver\pmd-bin\bin\pmd.bat -d D:\download -f xml -R java-basic,java-unnecessary,java-unusedcode,java-braces,java-j2ee,java-javabeans,java-controversial -r pmdProj_report.xml   || exit 0 
+Use Rule name category/java/errorprone.xml/AvoidBranchingStatementAsLastInLoop instead of the deprecated Rule name rulesets/java/basic.xml/AvoidBranchingStatementAsLastInLoop. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:18 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/AvoidBranchingStatementAsLastInLoop instead of the deprecated Rule name rulesets/java/basic.xml/AvoidBranchingStatementAsLastInLoop. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/AvoidDecimalLiteralsInBigDecimalConstructor instead of the deprecated Rule name rulesets/java/basic.xml/AvoidDecimalLiteralsInBigDecimalConstructor. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:19 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/AvoidDecimalLiteralsInBigDecimalConstructor instead of the deprecated Rule name rulesets/java/basic.xml/AvoidDecimalLiteralsInBigDecimalConstructor. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/AvoidMultipleUnaryOperators instead of the deprecated Rule name rulesets/java/basic.xml/AvoidMultipleUnaryOperators. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:19 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/AvoidMultipleUnaryOperators instead of the deprecated Rule name rulesets/java/basic.xml/AvoidMultipleUnaryOperators. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/AvoidUsingOctalValues instead of the deprecated Rule name rulesets/java/basic.xml/AvoidUsingOctalValues. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:20 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/AvoidUsingOctalValues instead of the deprecated Rule name rulesets/java/basic.xml/AvoidUsingOctalValues. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/BrokenNullCheck instead of the deprecated Rule name rulesets/java/basic.xml/BrokenNullCheck. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:20 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/BrokenNullCheck instead of the deprecated Rule name rulesets/java/basic.xml/BrokenNullCheck. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/CheckSkipResult instead of the deprecated Rule name rulesets/java/basic.xml/CheckSkipResult. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:20 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/CheckSkipResult instead of the deprecated Rule name rulesets/java/basic.xml/CheckSkipResult. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/ClassCastExceptionWithToArray instead of the deprecated Rule name rulesets/java/basic.xml/ClassCastExceptionWithToArray. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:20 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/ClassCastExceptionWithToArray instead of the deprecated Rule name rulesets/java/basic.xml/ClassCastExceptionWithToArray. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/DontUseFloatTypeForLoopIndices instead of the deprecated Rule name rulesets/java/basic.xml/DontUseFloatTypeForLoopIndices. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:20 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/DontUseFloatTypeForLoopIndices instead of the deprecated Rule name rulesets/java/basic.xml/DontUseFloatTypeForLoopIndices. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/JumbledIncrementer instead of the deprecated Rule name rulesets/java/basic.xml/JumbledIncrementer. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:20 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/JumbledIncrementer instead of the deprecated Rule name rulesets/java/basic.xml/JumbledIncrementer. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/MisplacedNullCheck instead of the deprecated Rule name rulesets/java/basic.xml/MisplacedNullCheck. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:20 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/MisplacedNullCheck instead of the deprecated Rule name rulesets/java/basic.xml/MisplacedNullCheck. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/OverrideBothEqualsAndHashcode instead of the deprecated Rule name rulesets/java/basic.xml/OverrideBothEqualsAndHashcode. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:20 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/OverrideBothEqualsAndHashcode instead of the deprecated Rule name rulesets/java/basic.xml/OverrideBothEqualsAndHashcode. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/ReturnFromFinallyBlock instead of the deprecated Rule name rulesets/java/basic.xml/ReturnFromFinallyBlock. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:20 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/ReturnFromFinallyBlock instead of the deprecated Rule name rulesets/java/basic.xml/ReturnFromFinallyBlock. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/UnconditionalIfStatement instead of the deprecated Rule name rulesets/java/basic.xml/UnconditionalIfStatement. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:20 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/UnconditionalIfStatement instead of the deprecated Rule name rulesets/java/basic.xml/UnconditionalIfStatement. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/multithreading.xml/AvoidThreadGroup instead of the deprecated Rule name rulesets/java/basic.xml/AvoidThreadGroup. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:20 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/multithreading.xml/AvoidThreadGroup instead of the deprecated Rule name rulesets/java/basic.xml/AvoidThreadGroup. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/multithreading.xml/DontCallThreadRun instead of the deprecated Rule name rulesets/java/basic.xml/DontCallThreadRun. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:20 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/multithreading.xml/DontCallThreadRun instead of the deprecated Rule name rulesets/java/basic.xml/DontCallThreadRun. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/multithreading.xml/DoubleCheckedLocking instead of the deprecated Rule name rulesets/java/basic.xml/DoubleCheckedLocking. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:20 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/multithreading.xml/DoubleCheckedLocking instead of the deprecated Rule name rulesets/java/basic.xml/DoubleCheckedLocking. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/bestpractices.xml/AvoidUsingHardCodedIP instead of the deprecated Rule name rulesets/java/basic.xml/AvoidUsingHardCodedIP. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:21 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/bestpractices.xml/AvoidUsingHardCodedIP instead of the deprecated Rule name rulesets/java/basic.xml/AvoidUsingHardCodedIP. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/bestpractices.xml/CheckResultSet instead of the deprecated Rule name rulesets/java/basic.xml/CheckResultSet. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:21 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/bestpractices.xml/CheckResultSet instead of the deprecated Rule name rulesets/java/basic.xml/CheckResultSet. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/ExtendsObject instead of the deprecated Rule name rulesets/java/basic.xml/ExtendsObject. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:21 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/ExtendsObject instead of the deprecated Rule name rulesets/java/basic.xml/ExtendsObject. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/ForLoopShouldBeWhileLoop instead of the deprecated Rule name rulesets/java/basic.xml/ForLoopShouldBeWhileLoop. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:21 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/ForLoopShouldBeWhileLoop instead of the deprecated Rule name rulesets/java/basic.xml/ForLoopShouldBeWhileLoop. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/performance.xml/BigIntegerInstantiation instead of the deprecated Rule name rulesets/java/basic.xml/BigIntegerInstantiation. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:21 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/performance.xml/BigIntegerInstantiation instead of the deprecated Rule name rulesets/java/basic.xml/BigIntegerInstantiation. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/performance.xml/BooleanInstantiation instead of the deprecated Rule name rulesets/java/basic.xml/BooleanInstantiation. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:21 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/performance.xml/BooleanInstantiation instead of the deprecated Rule name rulesets/java/basic.xml/BooleanInstantiation. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/design.xml/CollapsibleIfStatements instead of the deprecated Rule name rulesets/java/basic.xml/CollapsibleIfStatements. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:21 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/design.xml/CollapsibleIfStatements instead of the deprecated Rule name rulesets/java/basic.xml/CollapsibleIfStatements. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/design.xml/SimplifiedTernary instead of the deprecated Rule name rulesets/java/basic.xml/SimplifiedTernary. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:21 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/design.xml/SimplifiedTernary instead of the deprecated Rule name rulesets/java/basic.xml/SimplifiedTernary. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/UnnecessaryConversionTemporary instead of the deprecated Rule name rulesets/java/unnecessary.xml/UnnecessaryConversionTemporary. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:21 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/UnnecessaryConversionTemporary instead of the deprecated Rule name rulesets/java/unnecessary.xml/UnnecessaryConversionTemporary. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/UnusedNullCheckInEquals instead of the deprecated Rule name rulesets/java/unnecessary.xml/UnusedNullCheckInEquals. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:21 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/UnusedNullCheckInEquals instead of the deprecated Rule name rulesets/java/unnecessary.xml/UnusedNullCheckInEquals. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/UselessOperationOnImmutable instead of the deprecated Rule name rulesets/java/unnecessary.xml/UselessOperationOnImmutable. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:21 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/UselessOperationOnImmutable instead of the deprecated Rule name rulesets/java/unnecessary.xml/UselessOperationOnImmutable. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/UnnecessaryModifier instead of the deprecated Rule name rulesets/java/unnecessary.xml/UnnecessaryModifier. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/UnnecessaryModifier instead of the deprecated Rule name rulesets/java/unnecessary.xml/UnnecessaryModifier. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/UnnecessaryReturn instead of the deprecated Rule name rulesets/java/unnecessary.xml/UnnecessaryReturn. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/UnnecessaryReturn instead of the deprecated Rule name rulesets/java/unnecessary.xml/UnnecessaryReturn. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/UselessParentheses instead of the deprecated Rule name rulesets/java/unnecessary.xml/UselessParentheses. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/UselessParentheses instead of the deprecated Rule name rulesets/java/unnecessary.xml/UselessParentheses. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/UselessQualifiedThis instead of the deprecated Rule name rulesets/java/unnecessary.xml/UselessQualifiedThis. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/UselessQualifiedThis instead of the deprecated Rule name rulesets/java/unnecessary.xml/UselessQualifiedThis. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/design.xml/UselessOverridingMethod instead of the deprecated Rule name rulesets/java/unnecessary.xml/UselessOverridingMethod. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/design.xml/UselessOverridingMethod instead of the deprecated Rule name rulesets/java/unnecessary.xml/UselessOverridingMethod. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/UnnecessaryModifier instead of the deprecated Rule name rulesets/java/unnecessary.xml/UnnecessaryFinalModifier. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/UnnecessaryModifier instead of the deprecated Rule name rulesets/java/unnecessary.xml/UnnecessaryFinalModifier. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/bestpractices.xml/UnusedFormalParameter instead of the deprecated Rule name rulesets/java/unusedcode.xml/UnusedFormalParameter. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/bestpractices.xml/UnusedFormalParameter instead of the deprecated Rule name rulesets/java/unusedcode.xml/UnusedFormalParameter. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/bestpractices.xml/UnusedLocalVariable instead of the deprecated Rule name rulesets/java/unusedcode.xml/UnusedLocalVariable. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/bestpractices.xml/UnusedLocalVariable instead of the deprecated Rule name rulesets/java/unusedcode.xml/UnusedLocalVariable. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/bestpractices.xml/UnusedPrivateField instead of the deprecated Rule name rulesets/java/unusedcode.xml/UnusedPrivateField. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/bestpractices.xml/UnusedPrivateField instead of the deprecated Rule name rulesets/java/unusedcode.xml/UnusedPrivateField. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/bestpractices.xml/UnusedPrivateMethod instead of the deprecated Rule name rulesets/java/unusedcode.xml/UnusedPrivateMethod. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/bestpractices.xml/UnusedPrivateMethod instead of the deprecated Rule name rulesets/java/unusedcode.xml/UnusedPrivateMethod. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Discontinue using Rule name category/java/codestyle.xml/ForLoopsMustUseBraces as it is scheduled for removal from PMD. PMD 7.0.0 will remove support for this Rule.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Discontinue using Rule name category/java/codestyle.xml/ForLoopsMustUseBraces as it is scheduled for removal from PMD. PMD 7.0.0 will remove support for this Rule.
+Use Rule name category/java/codestyle.xml/ForLoopsMustUseBraces instead of the deprecated Rule name rulesets/java/braces.xml/ForLoopsMustUseBraces. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/ForLoopsMustUseBraces instead of the deprecated Rule name rulesets/java/braces.xml/ForLoopsMustUseBraces. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Discontinue using Rule name category/java/codestyle.xml/IfElseStmtsMustUseBraces as it is scheduled for removal from PMD. PMD 7.0.0 will remove support for this Rule.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Discontinue using Rule name category/java/codestyle.xml/IfElseStmtsMustUseBraces as it is scheduled for removal from PMD. PMD 7.0.0 will remove support for this Rule.
+Use Rule name category/java/codestyle.xml/IfElseStmtsMustUseBraces instead of the deprecated Rule name rulesets/java/braces.xml/IfElseStmtsMustUseBraces. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/IfElseStmtsMustUseBraces instead of the deprecated Rule name rulesets/java/braces.xml/IfElseStmtsMustUseBraces. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Discontinue using Rule name category/java/codestyle.xml/IfStmtsMustUseBraces as it is scheduled for removal from PMD. PMD 7.0.0 will remove support for this Rule.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Discontinue using Rule name category/java/codestyle.xml/IfStmtsMustUseBraces as it is scheduled for removal from PMD. PMD 7.0.0 will remove support for this Rule.
+Use Rule name category/java/codestyle.xml/IfStmtsMustUseBraces instead of the deprecated Rule name rulesets/java/braces.xml/IfStmtsMustUseBraces. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/IfStmtsMustUseBraces instead of the deprecated Rule name rulesets/java/braces.xml/IfStmtsMustUseBraces. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Discontinue using Rule name category/java/codestyle.xml/WhileLoopsMustUseBraces as it is scheduled for removal from PMD. PMD 7.0.0 will remove support for this Rule.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Discontinue using Rule name category/java/codestyle.xml/WhileLoopsMustUseBraces as it is scheduled for removal from PMD. PMD 7.0.0 will remove support for this Rule.
+Use Rule name category/java/codestyle.xml/WhileLoopsMustUseBraces instead of the deprecated Rule name rulesets/java/braces.xml/WhileLoopsMustUseBraces. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/WhileLoopsMustUseBraces instead of the deprecated Rule name rulesets/java/braces.xml/WhileLoopsMustUseBraces. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/DoNotCallSystemExit instead of the deprecated Rule name rulesets/java/j2ee.xml/DoNotCallSystemExit. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/DoNotCallSystemExit instead of the deprecated Rule name rulesets/java/j2ee.xml/DoNotCallSystemExit. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/StaticEJBFieldShouldBeFinal instead of the deprecated Rule name rulesets/java/j2ee.xml/StaticEJBFieldShouldBeFinal. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/StaticEJBFieldShouldBeFinal instead of the deprecated Rule name rulesets/java/j2ee.xml/StaticEJBFieldShouldBeFinal. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/UseProperClassLoader instead of the deprecated Rule name rulesets/java/j2ee.xml/UseProperClassLoader. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:22 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/UseProperClassLoader instead of the deprecated Rule name rulesets/java/j2ee.xml/UseProperClassLoader. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/LocalHomeNamingConvention instead of the deprecated Rule name rulesets/java/j2ee.xml/LocalHomeNamingConvention. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:23 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/LocalHomeNamingConvention instead of the deprecated Rule name rulesets/java/j2ee.xml/LocalHomeNamingConvention. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/LocalInterfaceSessionNamingConvention instead of the deprecated Rule name rulesets/java/j2ee.xml/LocalInterfaceSessionNamingConvention. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:23 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/LocalInterfaceSessionNamingConvention instead of the deprecated Rule name rulesets/java/j2ee.xml/LocalInterfaceSessionNamingConvention. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/MDBAndSessionBeanNamingConvention instead of the deprecated Rule name rulesets/java/j2ee.xml/MDBAndSessionBeanNamingConvention. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:23 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/MDBAndSessionBeanNamingConvention instead of the deprecated Rule name rulesets/java/j2ee.xml/MDBAndSessionBeanNamingConvention. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/RemoteInterfaceNamingConvention instead of the deprecated Rule name rulesets/java/j2ee.xml/RemoteInterfaceNamingConvention. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:23 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/RemoteInterfaceNamingConvention instead of the deprecated Rule name rulesets/java/j2ee.xml/RemoteInterfaceNamingConvention. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/RemoteSessionInterfaceNamingConvention instead of the deprecated Rule name rulesets/java/j2ee.xml/RemoteSessionInterfaceNamingConvention. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:23 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/RemoteSessionInterfaceNamingConvention instead of the deprecated Rule name rulesets/java/j2ee.xml/RemoteSessionInterfaceNamingConvention. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/multithreading.xml/DoNotUseThreads instead of the deprecated Rule name rulesets/java/j2ee.xml/DoNotUseThreads. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:23 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/multithreading.xml/DoNotUseThreads instead of the deprecated Rule name rulesets/java/j2ee.xml/DoNotUseThreads. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/BeanMembersShouldSerialize instead of the deprecated Rule name rulesets/java/javabeans.xml/BeanMembersShouldSerialize. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:23 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/BeanMembersShouldSerialize instead of the deprecated Rule name rulesets/java/javabeans.xml/BeanMembersShouldSerialize. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/MissingSerialVersionUID instead of the deprecated Rule name rulesets/java/javabeans.xml/MissingSerialVersionUID. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/MissingSerialVersionUID instead of the deprecated Rule name rulesets/java/javabeans.xml/MissingSerialVersionUID. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/AssignmentInOperand instead of the deprecated Rule name rulesets/java/controversial.xml/AssignmentInOperand. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/AssignmentInOperand instead of the deprecated Rule name rulesets/java/controversial.xml/AssignmentInOperand. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/AvoidAccessibilityAlteration instead of the deprecated Rule name rulesets/java/controversial.xml/AvoidAccessibilityAlteration. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/AvoidAccessibilityAlteration instead of the deprecated Rule name rulesets/java/controversial.xml/AvoidAccessibilityAlteration. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/AvoidLiteralsInIfCondition instead of the deprecated Rule name rulesets/java/controversial.xml/AvoidLiteralsInIfCondition. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/AvoidLiteralsInIfCondition instead of the deprecated Rule name rulesets/java/controversial.xml/AvoidLiteralsInIfCondition. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/DataflowAnomalyAnalysis instead of the deprecated Rule name rulesets/java/controversial.xml/DataflowAnomalyAnalysis. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/DataflowAnomalyAnalysis instead of the deprecated Rule name rulesets/java/controversial.xml/DataflowAnomalyAnalysis. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/DoNotCallGarbageCollectionExplicitly instead of the deprecated Rule name rulesets/java/controversial.xml/DoNotCallGarbageCollectionExplicitly. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/DoNotCallGarbageCollectionExplicitly instead of the deprecated Rule name rulesets/java/controversial.xml/DoNotCallGarbageCollectionExplicitly. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/DontImportSun instead of the deprecated Rule name rulesets/java/controversial.xml/DontImportSun. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/DontImportSun instead of the deprecated Rule name rulesets/java/controversial.xml/DontImportSun. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/NullAssignment instead of the deprecated Rule name rulesets/java/controversial.xml/NullAssignment. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/NullAssignment instead of the deprecated Rule name rulesets/java/controversial.xml/NullAssignment. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/errorprone.xml/SuspiciousOctalEscape instead of the deprecated Rule name rulesets/java/controversial.xml/SuspiciousOctalEscape. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/errorprone.xml/SuspiciousOctalEscape instead of the deprecated Rule name rulesets/java/controversial.xml/SuspiciousOctalEscape. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/AtLeastOneConstructor instead of the deprecated Rule name rulesets/java/controversial.xml/AtLeastOneConstructor. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/AtLeastOneConstructor instead of the deprecated Rule name rulesets/java/controversial.xml/AtLeastOneConstructor. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/AvoidFinalLocalVariable instead of the deprecated Rule name rulesets/java/controversial.xml/AvoidFinalLocalVariable. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/AvoidFinalLocalVariable instead of the deprecated Rule name rulesets/java/controversial.xml/AvoidFinalLocalVariable. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/AvoidPrefixingMethodParameters instead of the deprecated Rule name rulesets/java/controversial.xml/AvoidPrefixingMethodParameters. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/AvoidPrefixingMethodParameters instead of the deprecated Rule name rulesets/java/controversial.xml/AvoidPrefixingMethodParameters. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/AvoidUsingNativeCode instead of the deprecated Rule name rulesets/java/controversial.xml/AvoidUsingNativeCode. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/AvoidUsingNativeCode instead of the deprecated Rule name rulesets/java/controversial.xml/AvoidUsingNativeCode. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/CallSuperInConstructor instead of the deprecated Rule name rulesets/java/controversial.xml/CallSuperInConstructor. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/CallSuperInConstructor instead of the deprecated Rule name rulesets/java/controversial.xml/CallSuperInConstructor. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/DefaultPackage instead of the deprecated Rule name rulesets/java/controversial.xml/DefaultPackage. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/DefaultPackage instead of the deprecated Rule name rulesets/java/controversial.xml/DefaultPackage. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/OnlyOneReturn instead of the deprecated Rule name rulesets/java/controversial.xml/OnlyOneReturn. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/OnlyOneReturn instead of the deprecated Rule name rulesets/java/controversial.xml/OnlyOneReturn. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/UnnecessaryConstructor instead of the deprecated Rule name rulesets/java/controversial.xml/UnnecessaryConstructor. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/UnnecessaryConstructor instead of the deprecated Rule name rulesets/java/controversial.xml/UnnecessaryConstructor. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/multithreading.xml/AvoidUsingVolatile instead of the deprecated Rule name rulesets/java/controversial.xml/AvoidUsingVolatile. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/multithreading.xml/AvoidUsingVolatile instead of the deprecated Rule name rulesets/java/controversial.xml/AvoidUsingVolatile. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/multithreading.xml/UseConcurrentHashMap instead of the deprecated Rule name rulesets/java/controversial.xml/UseConcurrentHashMap. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/multithreading.xml/UseConcurrentHashMap instead of the deprecated Rule name rulesets/java/controversial.xml/UseConcurrentHashMap. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/bestpractices.xml/OneDeclarationPerLine instead of the deprecated Rule name rulesets/java/controversial.xml/OneDeclarationPerLine. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/bestpractices.xml/OneDeclarationPerLine instead of the deprecated Rule name rulesets/java/controversial.xml/OneDeclarationPerLine. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/performance.xml/AvoidUsingShortType instead of the deprecated Rule name rulesets/java/controversial.xml/AvoidUsingShortType. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/performance.xml/AvoidUsingShortType instead of the deprecated Rule name rulesets/java/controversial.xml/AvoidUsingShortType. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/design.xml/UseObjectForClearerAPI instead of the deprecated Rule name rulesets/java/controversial.xml/UseObjectForClearerAPI. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/design.xml/UseObjectForClearerAPI instead of the deprecated Rule name rulesets/java/controversial.xml/UseObjectForClearerAPI. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+Use Rule name category/java/codestyle.xml/UselessParentheses instead of the deprecated Rule name rulesets/java/controversial.xml/UnnecessaryParentheses. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+4¤ë 17, 2018 4:35:24 ¤U¤È net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+Äµ§i: Use Rule name category/java/codestyle.xml/UselessParentheses instead of the deprecated Rule name rulesets/java/controversial.xml/UnnecessaryParentheses. PMD 7.0.0 will remove support for this deprecated Rule name usage.
+This analysis could be faster, please consider using Incremental Analysis: https://pmd.github.io/pmd-6.2.0/pmd_userdocs_getting_started.html#incremental-analysis
+4¤ë 17, 2018 4:35:25 ¤U¤È net.sourceforge.pmd.PMD processFiles
+Äµ§i: This analysis could be faster, please consider using Incremental Analysis: https://pmd.github.io/pmd-6.2.0/pmd_userdocs_getting_started.html#incremental-analysis
+Finished: SUCCESS

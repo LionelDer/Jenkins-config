@@ -1,0 +1,18 @@
+Started by user [8mha:////4FxTXGHAbfSOeTAjfLveW5XJjrvV7ceb5KVg+tXCUiW+AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\checkstyle
+[] $ cmd.exe /C "ant.bat -file ant.xml && exit %%ERRORLEVEL%%"
+Buildfile: D:\ant.xml
+
+[8mha:////4Pa9Zx+g+sb9pWEKPSRJHhHE34+3DuxbPhb2oPXAPWZRAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0minit:
+
+[8mha:////4Pa9Zx+g+sb9pWEKPSRJHhHE34+3DuxbPhb2oPXAPWZRAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcheckstyle:
+[checkstyle] Running Checkstyle 8.9 on 333 files
+    [style] Warning: the task name <style> is deprecated. Use <xslt> instead.
+
+[8mha:////4FySHA9BJuJK4keHPR3mJMnREBZ3b8JWd+L09BmnSi79AAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD FAILED
+D:\ant.xml:25: specify the stylesheet either as a filename in style attribute or as a nested resource
+
+Total time: 14 seconds
+Build step 'Invoke Ant' marked build as failure
+[CHECKSTYLE] Skipping publisher since build result is FAILURE
+Finished: FAILURE

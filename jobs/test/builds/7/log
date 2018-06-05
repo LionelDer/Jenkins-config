@@ -1,0 +1,21 @@
+Started by user [8mha:////4FxTXGHAbfSOeTAjfLveW5XJjrvV7ceb5KVg+tXCUiW+AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\test
+ > C:\Program Files\Git\bin\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url git@github.com:LionelDer/Imaginarium.git # timeout=10
+Fetching upstream changes from git@github.com:LionelDer/Imaginarium.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+using GIT_SSH to set credentials 
+ > C:\Program Files\Git\bin\git.exe fetch --tags --progress git@github.com:LionelDer/Imaginarium.git +refs/heads/*:refs/remotes/origin/*
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 94a91453c55d5e636f6fca746727ffa7c49496f5 (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f 94a91453c55d5e636f6fca746727ffa7c49496f5
+Commit message: "Imaginarium"
+ > C:\Program Files\Git\bin\git.exe rev-list --no-walk 94a91453c55d5e636f6fca746727ffa7c49496f5 # timeout=10
+[test] $ cmd /c call C:\Windows\TEMP\jenkins6843401137135016268.bat
+
+C:\Program Files (x86)\Jenkins\workspace\test>D:\dirver\pmd-bin\bin\pmd.dat -d D:\dirver -f html -R java-basic,java-unnecessary,java-unusedcode,java-braces,java-j2ee,java-javabeans,java-controversial -r pmdProj_report.xml   || exit 0 
+'D:\dirver\pmd-bin\bin\pmd.dat' ¤£¬O¤º³¡©Î¥~³¡©R¥O¡B¥i°õ¦æªºµ{¦¡©Î§å¦¸ÀÉ¡C
+Finished: SUCCESS
